@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 950px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 33px;
+}
+
+.header-item {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.header-item-special {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+hr {
+  height: 1px;
+  background-color: #828282;
+  color: #828282;
+  margin-top: 32px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.hero-title {
+  font-family: "Inter", sans-serif;
+  font-size: 47.34px;
+  line-height: 59px;
+  color: #070707;
+  width: 124px;
+  margin-bottom: 30px;
+}
+
+.hero-biography {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  width: 167px;
+  margin-bottom: 38px;
+}
+
+.lang {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  width: 75px;
+  transform: rotate(-90deg);
+  margin-bottom: 69px;
+}
+
+span {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.hero-img {
+  margin-top: 15px;
+  margin-bottom: 105px;
+}
+
+.about-me {
+  background-color: #f6f6f6;
+  height: 506px;
+}
+
+.about-me-title {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  padding-top: 120px;
+  margin-bottom: 18px;
+}
+
+.about-me-item {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 35px;
+}
+
+.skills-title {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+.skills-descr {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  padding-bottom: 84px;
+}
+
+.skills-programms {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 110px;
+}
+
+.portfolio {
+  background-color: #f6f6f6;
+}
+
+.portfolio-title {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  padding-top: 113px;
+  padding-bottom: 47px;
+}
+
+figcaption {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  padding-top: 45px;
+  padding-bottom: 95px;
+}
+
+.contacts-title {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+
+.contacts-descr {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.btn {
+  margin: 0 auto;
+  display: block;
+  background-color: #000000;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 20px;
+  width: 180px;
+  height: 42px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition: 1s 0s;
+}
